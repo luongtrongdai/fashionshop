@@ -1,0 +1,116 @@
+body {
+	width: 100%;
+	background: url(../images/bg-textture.png) no-repeat top center;
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 1;
+	color: #333;
+	font-family: 'Source Sans Pro', Arial;
+}
+
+.margin-top-05 { margin-top: 0.5em; }
+.margin-top-10 { margin-top: 1.0em; }
+.margin-top-15 { margin-top: 1.5em; }
+.margin-top-20 { margin-top: 2.0em; }
+.margin-top-25 { margin-top: 2.5em; }
+.margin-top-30 { margin-top: 3.0em; }
+
+.user-info {
+	font-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+	.text-center-xs {
+	    text-align: center;
+	}
+}
+
+/* slide css */
+.border-on-img {
+	float: left;
+	width: 97.5%;
+	height: 95%;
+	position: absolute;
+	top: 2.2%;
+	left: 1.2%;
+	border: 1px dashed #fff;
+	z-index: 100;
+	border-radius: 10px;
+}
+
+.content_slider {
+	width: 100%;
+	position: absolute;
+	background: #fada99;
+	height: 40px;
+	right: 0;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	bottom: 0;
+	opacity: 0.8;
+	text-align: center;
+}
+.content_slider p {
+	color: #6e4900;
+	font-size: 1.8em;
+	font-family: 'Gochi Hand', Times;
+	text-align: center;
+	padding: 0 1em;
+	float: left;
+	line-height: 40px
+}
+
+#slider img {
+	border-radius: 10px;
+}
+
+#sliderthumbs {
+	height:20px;
+	position: absolute;
+	z-index: 100;
+	margin-left: 3%;
+	top: 4%;
+	right: 3%;
+}
+#sliderthumbs a {
+	text-indent: -9999px;
+	float: left;
+	background: #fbda99;
+	width: 10px;
+	height: 10px;
+	margin: 0 2px;
+	border-radius: 8px;
+	border: 1px solid #c0cf0f;
+}
+.activeSlide {
+	background:#d88f00 !important;
+}
+
+#slider li, #slider li img {
+	width: 100% !important;
+	height: 300px;
+}
+/* End of css for clide */
+
+/* List product */
+h1.title-module {
+	font-family: 'Gochi Hand', Times;
+	font-size: 28px;
+	color: #205e75;
+	font-weight: normal;
+	float: left;
+	width: 100%;
+	text-align: left;
+	margin-top: 20px;
+}
+h1.title-module {
+	background: #e9f5fa;
+	float:left;
+	padding-right:20px
+}
+
+ol, ul {
+	list-style: none;
+}
